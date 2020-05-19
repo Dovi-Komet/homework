@@ -1,0 +1,32 @@
+h1 {
+    color: brown;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    background-color: lightpink;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 630px;
+}
+
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5rem;
+    background-color: silver;
+}
+
+a {
+    font-size: 30px;
+}
