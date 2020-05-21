@@ -1,0 +1,89 @@
+html {
+    background-color: peru;
+}
+
+body {
+    max-width: 1000px;
+    background-color: peachpuff;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-size: 3rem;
+    background-color: lightpink;
+    letter-spacing: 8px;
+    margin: 40px 60px;
+    text-shadow: 4px 3px 4px red;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+h2 {
+    color: yellow;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 630px;
+}
+
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5rem;
+    background-color: silver;
+    line-height: 60px;
+    padding: 75px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:link {
+    color: slateblue;
+}
+
+a:visited {
+    color: turquoise;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+a:focus {
+    color: yellow;
+}
+
+a:active {
+    color: green;
+}
+
+a p {
+    color: blue;
+}
+
+.restaurantImg {
+    border-radius: 50px;
+}
+
+#burgerImg {
+    border: 7px solid yellow;
+    width: 300px;
+    float: left;
+    transform: rotate(-5deg);
+}
