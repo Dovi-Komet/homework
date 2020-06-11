@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More about our Burgers</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <h1>Our Burgers</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="comments.html">Comments</a>
+    </nav>
+    <form action="feedback.php" method="post">
+        <label for="name">Name</label><input type="text" name="name" id="name" minlength="7" required>
+        <label for="email">Email</label><input type="email" name="email" id="email">
+        <label for="date">Date Visited</label><input type="date" name="date" id="date">
+        <label for="rating">Rating (0-5)</label><input type="range" name="rating" id="rating" min="0" max="5">
+        <label for="comments">Comments</label><textarea name="comments" id="comments">Type comments here.</textarea>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+html {
+    background-color: peru;
+}
+
+body {
+    max-width: 1000px;
+    background-color: peachpuff;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 8px;
+    margin: 40px 60px;
+    text-shadow: 4px 3px 4px red;
+    text-transform: uppercase;
+    padding: 30px;
+    font-family: 'Parisienne', cursive;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 630px;
+}
+
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.5rem;
+    line-height: 60px;
+    padding: 75px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:link {
+    color: slateblue;
+}
+
+a:visited {
+    color: turquoise;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+a:focus {
+    color: yellow;
+}
+
+a:active {
+    color: green;
+}
+
+a p {
+    color: blue;
+}
+
+.restaurantImg {
+    border-radius: 50px;
+}
+
+#burgerImg {
+    border: 7px solid yellow;
+    width: 300px;
+    float: left;
+    transform: rotate(-5deg);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: peachpuff;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+tr>td, tr>th {
+    border: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+td:last-child {
+    color: royalblue;
+}
+
+tfoot>tr>td:last-child {
+    color: red;  
+}
+
+td, th {
+    padding: 1em;
+}
+
+caption+thead {
+    font-weight: bold;
+    font-size: large;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        width: 300px;
+    }
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input:not([type="submit"]), textarea {
+    margin: 1em 0em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: .5em;
+    font-size: 1em;
+    display: block;
+    margin: 1em auto;
+}
