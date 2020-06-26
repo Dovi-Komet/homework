@@ -1,0 +1,167 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 50px 0 45px;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#pcs {
+    font-style: italic;
+}
+
+main, header {
+    width: 80%;
+    margin: auto;
+}
+
+nav, footer {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+nav {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin-left: 10%;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h3:target::before {
+    content: "";
+    display: block;
+    height: 60px;
+    margin: -60px 0 0;
+}
+
+.media {
+    width: 100%;
+}
+
+.product > p {
+    text-align: justify;
+    width: 97%;
+    margin: auto;
+}
+
+#form {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 50px 0 0;
+}
+
+input {
+    border-radius: 5px;
+    box-shadow: black 3px 3px;
+    border: none;
+    width: 115px;
+}
+
+.inputWrapper {
+    padding-bottom: 20px;
+}
+
+#tableContainer {
+    overflow: auto;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: blue !important;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+td, #total {
+    text-align: end;
+}
+
+td:last-child {
+    color: red;
+}
+
+footer {
+    padding: 10px;
+}
+
+#footer {
+    margin-left: 10%;
+}
+
+@media (min-width: 1000px){
+    #productContainer {
+        display: flex;
+    }
+    
+    .product {
+        flex: auto;
+        text-align: center;
+        width: 33%;
+        box-sizing: border-box;
+    }
+    
+    .product:nth-child(2) {
+        border-left: black solid 1px;
+        border-right: black solid 1px;
+    }
+    
+    .media {
+        width: 97%;
+    }
+    
+    input#name {
+        margin-right: 10px;
+    }
+
+    .inputWrapper {
+        display: inline;
+    }
+}

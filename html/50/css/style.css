@@ -7,13 +7,12 @@ body {
                          'five'
                          'six'
                          'seven';
-    gap: 1px;
-    grid-template-columns: repeat(4, 50px);
+    gap: 5px;
 }
 
 div {
     background-color: orange;
-    height: 50px;
+    height: 85px;
 }
 
 #div1 {
@@ -54,10 +53,11 @@ div {
 
     div {
         background-color: blue;
+        height: 155px;
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     body {
         grid-template-areas: 'one one two three'
                              'four five six seven';
@@ -65,5 +65,6 @@ div {
 
     div {
         background-color: red;
+        height: 300px;
     }
 }
