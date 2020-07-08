@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        'use strict'
+
+        function multiply(a, b) {
+            return a * b;
+        }
+
+        console.log(multiply(2, 5));
+        console.log(multiply(3, 3));
+        console.log(multiply(25, 4));
+
+        function getMutiplier() {
+            return function (a, b) {
+                return a * b;
+            }
+        }
+
+        let getFunction = getMutiplier()
+
+        console.log(getFunction(3, 7))
+
+        function getMutiplier2(a) {
+            return function (b) {
+                return a * b;
+            }
+        }
+
+        let closure = getMutiplier2(7)
+        console.log(closure(7))
+
+    </script>
+</body>
+
+</html>
