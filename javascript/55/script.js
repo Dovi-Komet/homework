@@ -19,7 +19,11 @@ function isSome(arr, funct) {
 }
 
 function onlyIf(arr, test, action) {
-    
+    for (let index = 0; index < arr.length; index++) {
+        if (test(arr[index])) {
+            action(arr[index]);
+        }
+    }
 }
 
 const letters1 = ['a', 'B', 'c'];
