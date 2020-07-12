@@ -74,3 +74,6 @@ console.log(letters3.some(test1));      //true
 console.log(letters1.some(test2));      //true
 console.log(letters2.some(test2));      //true
 console.log(letters3.some(test2));      //false
+
+
+letters1.filter(each => each > 2).forEach(passed => console.log(passed));
