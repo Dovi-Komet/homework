@@ -76,4 +76,4 @@ console.log(letters2.some(test2));      //true
 console.log(letters3.some(test2));      //false
 
 
-letters1.filter(each => each > 2).forEach(passed => console.log(passed));
+letters1.filter(each => each === each.toUpperCase()).forEach(passed => console.log(passed));
